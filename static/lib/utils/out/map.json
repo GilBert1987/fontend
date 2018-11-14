@@ -1,0 +1,90 @@
+{
+    "res": {
+        "app.js": {
+            "uri": "/app.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "app"
+            },
+            "deps": [
+                "static/lib/utils/utils.js",
+                "router.js"
+            ]
+        },
+        "router.js": {
+            "uri": "/router.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "router"
+            },
+            "deps": [
+                "static/model.js",
+                "static/view.js"
+            ]
+        },
+        "static/lib/backbone/backbone.js": {
+            "uri": "/static/lib/backbone/backbone.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "static/lib/backbone/backbone"
+            },
+            "deps": [
+                "static/lib/underscore/underscore.js",
+                "static/lib/jquery/jquery.js"
+            ]
+        },
+        "static/lib/jquery/jquery.js": {
+            "uri": "/static/lib/jquery/jquery.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "static/lib/jquery/jquery"
+            }
+        },
+        "static/lib/require/require.js": {
+            "uri": "/static/lib/require/require.js",
+            "type": "js"
+        },
+        "static/lib/underscore/underscore.js": {
+            "uri": "/static/lib/underscore/underscore.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "static/lib/underscore/underscore"
+            }
+        },
+        "static/lib/utils/utils.js": {
+            "uri": "/static/lib/utils/utils.js",
+            "type": "js",
+            "deps": [
+                "static/lib/jquery/jquery.js",
+                "static/lib/underscore/underscore.js",
+                "static/lib/backbone/backbone.js"
+            ]
+        },
+        "static/model.js": {
+            "uri": "/static/model.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "static/model"
+            },
+            "deps": [
+                "static/lib/utils/utils.js"
+            ]
+        },
+        "static/styles/app.scss": {
+            "uri": "/static/styles/app.css",
+            "type": "css"
+        },
+        "static/view.js": {
+            "uri": "/static/view.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "static/view"
+            },
+            "deps": [
+                "static/lib/utils/utils.js",
+                "static/model.js"
+            ]
+        }
+    },
+    "pkg": {}
+}

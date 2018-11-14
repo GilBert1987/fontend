@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=320,minimum-scale=1.0,maximum-scale=1.0,initial-scale=1.0,user-scalable=no">
+    <meta name="format-detection" content="telephone=no">
+	<meta http-equiv="pragma" CONTENT="no-cache">
+    <meta http-equiv="Cache-Control" CONTENT="no-cache, must-revalidate">
+    <meta http-equiv="expires" CONTENT="0">
+    <title>Shops</title>
+    <link rel="stylesheet" href="/static/styles/app.css" />
+</head>
+<body>
+<div id="body">
+</div>
+<script type="text/javascript" src="/static/lib/require/require.js"></script>
+<script type="text/javascript">/*resourcemap*/
+require.config({paths:{
+  "static/lib/jquery/jquery": "/static/lib/jquery/jquery",
+  "static/lib/underscore/underscore": "/static/lib/underscore/underscore",
+  "static/lib/backbone/backbone": "/static/lib/backbone/backbone",
+  "static/lib/utils/utils": "/static/lib/utils/utils",
+  "static/model": "/static/model",
+  "static/view": "/static/view",
+  "router": "/router",
+  "app": "/app"
+}});
+
+    require.config({
+        baseUrl: "../",
+    });
+	require(["app"], function(app) {
+        app.bootstrap();
+        console.log('loading finished')
+	});
+</script>
+</body>
+</html>

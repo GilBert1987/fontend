@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=320,minimum-scale=1.0,maximum-scale=1.0,initial-scale=1.0,user-scalable=no">
+    <meta name="format-detection" content="telephone=no">
+	<meta http-equiv="pragma" CONTENT="no-cache">
+    <meta http-equiv="Cache-Control" CONTENT="no-cache, must-revalidate">
+    <meta http-equiv="expires" CONTENT="0">
+    <title>Shops</title>
+    <link rel="stylesheet" href="/static/styles/loading.less">
+    <script type="text/javascript" src="/static/lib/require/require.js"></script>
+</head>
+<body>
+<div id="body">
+    <div class="Loading-page">
+    <div class="Loading-page__bd">
+        <div class="Loading Loading_loading">
+            <i></i>加载中...
+        </div>
+    </div>
+</div>
+</div>
+<script type="text/javascript">
+    require.config({
+        baseUrl: "../",
+    });
+	require(["app"], function(app) {
+        app.bootstrap();
+        console.log('loading finished')
+	});
+</script>
+</body>
+</html>
