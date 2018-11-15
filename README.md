@@ -1,9 +1,11 @@
 # fontend
 
- 这是一个前端学习的Demo，主要的知识点总结如下
+ 这是一个前端学习的Demo
  
- FIS3+AMD+RequireJS+Backbone+Underscore+JQuery结合的例子
- 
+  用到的主要的技术点如下
+  1.打包工具: FIS3
+  2.JS模块化:AMD+RequireJS
+  3.Backbone+Underscore+JQuery结合的例子
  项目运行需要的资源
  安装Node NPM 和 FIS  注意有版本的要求
  http://fis.baidu.com/fis3/docs/beginning/install.html
