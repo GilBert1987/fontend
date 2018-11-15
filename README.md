@@ -21,7 +21,31 @@ fis3 release -d ./out/  将FIS的"编译" 结果生成到out 目录，方便进�
 
 学习文档&参考资料
 JS 基础知识
+https://www.cnblogs.com/wilber2013/p/4924309.html
+
 HTML+CSS+LESS
+https://developer.mozilla.org/zh-CN/docs/Web
+https://c.runoob.com/
+
 RequireJS+CommonJS+AMD
+https://requirejs.org/
+Module Export的定义
+https://nodejs.org/api/modules.html#modules_modules
+AMD 规范 https://zhaoda.net/webpack-handbook/amd.html
+
 Backbone+underscore+Template
+underscore学习
+under score API https://www.css88.com/doc/underscore/
+under score 源码分析 https://github.com/hanzichi/underscore-analysis
+JQUERY学习
+https://api.jquery.com/
+JQUERY  AJAX 参数
+http://api.jquery.com/jQuery.ajax/#jqXHR
+
+http://backbonejs.org/#
+https://blog.csdn.net/cdnight/article/details/40350611
+https://github.com/the5fire/backbonejs-learning-note/blob/master/chapters/07-backbonejs-todos-2.rst
+
 FIS的学习资料
+https://github.com/fex-team/fis3-demo
+http://fis.baidu.com/
